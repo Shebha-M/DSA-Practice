@@ -18,7 +18,7 @@ public:
             if(mp2.find(t[i]) !=mp2.end())
             {
                 if(mp2[t[i]]!=s[i])
-                    return fValse;
+                    return false;
             }
             else
             {
